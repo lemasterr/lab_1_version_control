@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта магазинів мобільних пристроїв</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f8ff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 25px;
+            border-radius: 14px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            text-align: center;
+            color: #1d3f8f;
+        }
+
+        .map {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            margin: 30px auto;
+            background: linear-gradient(135deg, #dce9ff, #f8fbff);
+            border: 2px solid #9db7ef;
+            border-radius: 12px;
+        }
+
+        .point {
+            position: absolute;
+            background: #1d3f8f;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .point:hover {
+            background: #2f5fd0;
+        }
+
+        .back {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back a {
+            text-decoration: none;
+            color: white;
+            background: #1d3f8f;
+            padding: 12px 18px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Карта магазинів мобільних пристроїв</h1>
+
+        <div class="map">
+            <a class="point" href="https://www.apple.com/" target="_blank" style="top: 60px; left: 90px;">Apple Store</a>
+            <a class="point" href="https://www.samsung.com/" target="_blank" style="top: 150px; left: 260px;">Samsung</a>
+            <a class="point" href="https://www.mi.com/" target="_blank" style="top: 250px; left: 140px;">Xiaomi</a>
+            <a class="point" href="https://store.google.com/" target="_blank" style="top: 110px; left: 500px;">Google Store</a>
+            <a class="point" href="https://consumer.huawei.com/" target="_blank" style="top: 300px; left: 450px;">Huawei</a>
+        </div>
+
+         <div class="back">
+            <a href="index.html">Повернутися на головну сторінку</a>
+        </div>
+
+    </div>
+</body>
+</html>
